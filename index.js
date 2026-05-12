@@ -10,7 +10,7 @@ async function testarPagina(url) {
     console.log("OK:", response.ok);
 
     if (response.status === 404) {
-      console.log("❌ Página NÃO encontrada (NOT_FOUND)");
+      console.log("❌ Página encontrada (NOT_FOUND)");
     } else {
       console.log("✅ Página encontrada");
     }
